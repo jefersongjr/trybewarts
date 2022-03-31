@@ -8,8 +8,13 @@
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
   align-items: center;
+  padding: 0 30px;
 }
 
 .form-container-header form {
   display: flex;
+}
+
+#trybewarts-header-title{
+  color: rgb(255, 255,255);
 }
