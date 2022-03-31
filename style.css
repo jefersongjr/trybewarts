@@ -33,3 +33,7 @@ main {
 #trybewarts-forms-logo{
   height: 500px;
 }
+
+main form div{
+  margin-bottom: 10px;
+}
