@@ -15,6 +15,16 @@
   display: flex;
 }
 
-#trybewarts-header-title{
-  color: rgb(255, 255,255);
+#trybewarts-header-title {
+  color: rgb(255, 255, 255);
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
 }
