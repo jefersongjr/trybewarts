@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -34,24 +34,26 @@
         </div>
         <div>
           <input type="text" id="input-email" placeholder="Email" />
-          <label for="house">Casa:</label>
-          <select name="house" id="house">
-            <option text="Gitnória" value="Gitnória" id="gitnoria-house">
-              Gitnória
-            </option>
+          <label for="house"
+            >Casa:
+            <select name="house" id="house">
+              <option text="Gitnória" value="Gitnória" id="gitnoria-house">
+                Gitnória
+              </option>
 
-            <option type="text" value="Reactpuff" id="reactpuff-house">
-              Reactpuff
-            </option>
+              <option type="text" value="Reactpuff" id="reactpuff-house">
+                Reactpuff
+              </option>
 
-            <option type="text" value="Corvinode" id="corvinode-house">
-              Corvinode
-            </option>
+              <option type="text" value="Corvinode" id="corvinode-house">
+                Corvinode
+              </option>
 
-            <option type="text" value="Pytherina" id="pytherina-house">
-              Pytherina
-            </option>
-          </select>
+              <option type="text" value="Pytherina" id="pytherina-house">
+                Pytherina
+              </option>
+            </select>
+          </label>
         </div>
         <label for="family" id="label-family">Qual sua família?</label>
         <div id="family-container">
@@ -102,9 +104,10 @@
         ></textarea>
         <label for="agreement" id="label-infos"
           >Você concorda com o uso das informações acima?
-        <input type="checkbox" id="agreement">
-        </label
-        >
+          <input type="checkbox" id="agreement" required/>
+        </label>
+
+        <button type="submit" id="submit-btn">Enviar</button>
       </form>
       <img
         src="images/trybewarts-colored.svg"
