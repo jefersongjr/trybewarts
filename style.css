@@ -38,14 +38,11 @@ main form div {
   margin-bottom: 10px;
 }
 
-img{
+img {
   display: flex;
 }
 
 #label-family {
   display: flex;
   flex-direction: column;
-  
 }
-
-
