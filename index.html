@@ -20,15 +20,9 @@
       <h1 id="trybewarts-header-title">Trybewarts</h1>
       <section class="form-container-header">
         <form action="GET" class="trybewarts-login">
-          <label for="email">
-            <input type="text" name="email" placeholder="Email" />
-          </label>
-          <label for="password">
-            <input type="text" name="password" placeholder="Senha" />
-          </label>
-          <label for="Entrar">
-            <button type="submit">Entrar</button>
-          </label>
+          <input type="email" name="email" placeholder="Email" />
+          <input type="password" name="password" placeholder="Senha" />
+          <button type="submit">Entrar</button>
         </form>
       </section>
     </header>
@@ -61,36 +55,34 @@
             </select>
           </label>
         </div>
-        <label for="family" id="label-family">Qual sua família?
-          <div>
-          <input type="radio" name="family" value="Frontend"> Família Frontend<br>
-             <input type="radio" name="family" value="Backend"> Família Backend<br>
-              <input type="radio" name="family" value="FullStack"> Família FullStack       
-             </div>
-        </label>
+        <label for="family" id="label-family">Qual sua família?</label>
+        <div id="family-container">
+          <input type="radio" name="family" value="Frontend" /> Família Frontend
+          <br />
+          <input type="radio" name="family" value="Backend" /> Família Backend
+          <br />
+          <input type="radio" name="family" value="FullStack" /> Família
+          FullStack
+        </div>
+
         <label for="content" id="label-content">
-            Qual conteúdo você está com mais 
-            vontade de aprender?</label>
-            <div>
-            <input type="checkbox" name="HoFs" 
-            value="HoFs">HoFs
+          Qual conteúdo você está com mais vontade de aprender?</label
+        >
+        <div>
+          <input type="checkbox" name="HoFs" value="HoFs" />HoFs
 
-            <input type="checkbox" name="Jest" 
-            value="Jest">Jest
+          <input type="checkbox" name="Jest" value="Jest" />Jest
 
-            <input type="checkbox" name="Promises" 
-            value="Promises">Promises
+          <input type="checkbox" name="Promises" value="Promises" />Promises
 
-            <input type="checkbox" name="React" 
-            value="React">React
+          <input type="checkbox" name="React" value="React" />React
 
-            <input type="checkbox" name="SQL" 
-            value="SQL">SQL
+          <input type="checkbox" name="SQL" value="SQL" />SQL
 
-            <input type="checkbox" name="Python"
-            value="Python">Python      
-            </div>
-             </form>
+          <input type="checkbox" name="Python" value="Python" />Python
+        </div>
+        
+      </form>
       <img
         src="images/trybewarts-colored.svg"
         alt="Emblema da escola Trybewarts "
