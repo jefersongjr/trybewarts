@@ -3,7 +3,7 @@ const inputPassword = document.getElementById('input-password');
 const btnLogin = document.getElementById('btn-login');
 const inputAgreement = document.getElementById('agreement');
 const submitBtn = document.getElementById('submit-btn');
-const span = document.getElementById('contador');
+const span = document.getElementById('counter   ');
 
 function alerta() {
   if (
