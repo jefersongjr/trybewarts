@@ -37,3 +37,6 @@ main {
 main form div {
   margin-bottom: 10px;
 }
+main p{
+  display: block;
+}
