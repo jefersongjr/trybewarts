@@ -35,7 +35,6 @@ btnLogin.addEventListener('click', alerta);
 
 // referencia de consulta https://stackoverflow.com/questions/65556342/disable-a-button-if-no-checkboxes-are-clicked
 
-// eslint-disable-next-line no-unused-vars
 function activeBtn() {
   if (inputAgreement.checked) {
     submitBtn.disabled = false;
@@ -43,14 +42,16 @@ function activeBtn() {
     submitBtn.disabled = true;
   }
 }
+activeBtn();
 
 const span = document.getElementById('counter');
-// eslint-disable-next-line no-unused-vars
 function contador() {
   const texto = document.getElementById('textarea').value;
   const cont = 500 - texto.length;
   span.innerText = `${cont}`;
 }
+
+contador();
 
 function getFamily() {
   let family = '';
