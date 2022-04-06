@@ -13,3 +13,15 @@ function alerta() {
   }
 }
 btnLogin.addEventListener("click", alerta);
+
+// questão 19!
+const inputAgreement = document.getElementById("agreement");
+const submitBtn = document.getElementById("submit-btn");
+
+function activeBtn() {
+  if (inputAgreement.checked) {
+    submitBtn.disabled = false;
+  } else {
+    submitBtn.disabled = true;
+  }
+}
