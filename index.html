@@ -19,7 +19,7 @@
 
       <h1 id="trybewarts-header-title">Trybewarts</h1>
       <section class="form-container-header">
-        <form action="GET" class="trybewarts-login">
+        <form class="trybewarts-login">
           <input type="email" name="email" placeholder="Email" />
           <input type="password" name="password" placeholder="Senha" />
           <button type="submit">Entrar</button>
@@ -36,14 +36,22 @@
           <input type="text" id="input-email" placeholder="Email" />
           <label for="house"
             >Casa:
-            <select id="house">
-              <option text="Gitnória" value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <select name="house" id="house">
+              <option text="Gitnória" value="Gitnória" id="gitnoria-house">
+                Gitnória
+              </option>
 
-              <option text="Reactpuff" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option type="text" value="Reactpuff" id="reactpuff-house">
+                Reactpuff
+              </option>
 
-              <option text="Corvinode" value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option type="text" value="Corvinode" id="corvinode-house">
+                Corvinode
+              </option>
 
-              <option text="Pytherina" value="Pytherina" id="pytherina-house">Pytherina</option>
+              <option type="text" value="Pytherina" id="pytherina-house">
+                Pytherina
+              </option>
             </select>
           </label>
         </div>
@@ -96,7 +104,7 @@
         ></textarea>
         <label for="agreement" id="label-infos"
           >Você concorda com o uso das informações acima?
-          <input type="checkbox" id="agreement" required />
+          <input type="checkbox" id="agreement" required/>
         </label>
 
         <button type="submit" id="submit-btn">Enviar</button>
@@ -108,8 +116,8 @@
       />
     </main>
     <footer>
-      <p>Direitos reservados à Trybewarts©</p>
-    </footer>
+      <p> Direitos reservados à Trybewarts©</p>
+      </footer>
     <script src="script.js"></script>
   </body>
 </html>
