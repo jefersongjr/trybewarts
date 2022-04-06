@@ -101,7 +101,9 @@
           cols="30"
           rows="10"
           maxlength="500"
+          oninput="contador()"
         ></textarea>
+        <span id="contador" >500</span>
         <label for="agreement" id="label-infos"
           >Você concorda com o uso das informações acima?
           <input type="checkbox" id="agreement" onclick="activeBtn()" required/>
