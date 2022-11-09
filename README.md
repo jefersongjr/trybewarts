@@ -7,6 +7,7 @@ de desenvolvimento Web.
 Esse foi o primeiro projeto em dupla, o que nos trouxe um desafio novo para testar nossas Soft-Skills.
 Ele consistia em criar uma página com um formulário de avaliação de uma Escola de Programação (Mágica) :mage: 🧙‍♀️
 
+veja o resultado clicando [Aqui](https://trybewarts-indol.vercel.app/)
 
 ## 🛠️ Construído com: 
 
