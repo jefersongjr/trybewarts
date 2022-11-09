@@ -18,6 +18,7 @@ const emailInput = document.getElementById('input-email');
 const familyRadio = document.querySelectorAll('.family');
 const avaliationRadio = document.querySelectorAll('.rate');
 const textArea = document.getElementById('textarea');
+const divAnswer = document.querySelector('#answer');
 
 const content = document.querySelectorAll('.subject');
 
@@ -89,6 +90,7 @@ function removeForm() {
 
 function answerForm() {
   removeForm();
+  divAnswer.classList = 'answer';
   p1.innerText = `Nome: ${nameInput.value} ${lastName.value}`;
   p2.innerText = `Email: ${emailInput.value}`;
   p3.innerText = `Casa: ${houseSelect.value}`;
