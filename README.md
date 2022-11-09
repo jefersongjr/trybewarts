@@ -1,4 +1,5 @@
 # TrybeWarts
+![prévia](https://github.com/jefersongjr/trybewarts/blob/main/pr%C3%A9via.gif)
 
 ##  🚀📋 Sobre:
 
